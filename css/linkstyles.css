@@ -1,0 +1,82 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Feb 2, 2024, 4:31:36 PM
+    Author     : lacey
+*/
+
+h1{
+    text-align: center;
+    color: mediumseagreen;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+li a {
+    display: block;
+    color: mediumseagreen;
+    padding: 8px 16px;
+    text-decoration: none; 
+}
+
+/*li{ display: inline-block;
+}*/
+li.active a {
+    background-color: mediumseagreen;
+    color: white;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color:pink;
+    color: black;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.centered-iframe {
+    text-align: center;
+}
+
+.custom-button {
+    background-color: pink;
+    color: black;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+}
+
+form > div {
+    margin-right: 20px; /* Add margin to create space between form elements */
+}
+
+form > div:last-child {
+    margin-right: 0; /* Remove margin for the last div */
+}
